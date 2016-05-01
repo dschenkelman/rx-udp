@@ -1,0 +1,10 @@
+tslint.json
+tsconfig.json
+.editorconfig
+.gitattributes
+.settings/
+.travis.yml
+.vscode/
+coverage
+typings.json
+typings/

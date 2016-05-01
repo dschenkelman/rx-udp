@@ -1,0 +1,36 @@
+{
+  "name": "rx-udp",
+  "version": "0.1.0",
+  "description": "Use observers and observables to read and write from udp sockets",
+  "main": "build/src/index.js",
+  "bugs": {
+    "url": "https://github.com/dschenkelman/rx-udp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dschenkelman/rx-udp.git"
+  },
+  "dependencies": {
+    "rx": "^4.1.0"
+  },
+  "typings": "build/src/index",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.3",
+    "mocha": "^2.4.5",
+    "mocha-istanbul": "^0.2.0",
+    "tslint": "^3.8.0-dev.0",
+    "typescript": "^1.8.10",
+    "typings": "^0.8.1"
+  },
+  "scripts": {
+    "build": "npm run defs && tslint src/*.ts test/*.ts && tsc -p .",
+    "clean": "rm -rf build",
+    "defs": "typings install",
+    "pretest": "npm run build",
+    "test": "istanbul cover ./node_modules/.bin/_mocha build/test && istanbul check-coverage --statement 95 --branch 95 --function 95 --lines 95",
+    "prepublish": "npm run build"
+  },
+  "author": "Damian Schenkelman",
+  "license": "MIT"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "rx-udp",
+  "version": false,
+  "ambientDependencies": {
+    "assertion-error": "github:DefinitelyTyped/DefinitelyTyped/assertion-error/assertion-error.d.ts#2d448c0a3152e8871521848c5c2c61ab4e2a2cc9",
+    "chai": "github:DefinitelyTyped/DefinitelyTyped/chai/chai.d.ts#2d448c0a3152e8871521848c5c2c61ab4e2a2cc9",
+    "mocha": "github:DefinitelyTyped/DefinitelyTyped/mocha/mocha.d.ts#2d448c0a3152e8871521848c5c2c61ab4e2a2cc9",
+    "node": "registry:dt/node#4.0.0+20160423143914",
+    "rx": "registry:dt/rx#0.0.0+20160317120654",
+    "rx-lite": "registry:dt/rx-lite#0.0.0+20160417154549",
+    "rx.async-lite": "registry:dt/rx.async-lite#0.0.0+20160316171810",
+    "rx.backpressure-lite": "registry:dt/rx.backpressure-lite#0.0.0+20160316171810",
+    "rx.binding-lite": "registry:dt/rx.binding-lite#0.0.0+20160316171810",
+    "rx.coincidence-lite": "registry:dt/rx.coincidence-lite#0.0.0+20160412135432",
+    "rx.lite": "registry:dt/rx.lite#0.0.0+20160316155526",
+    "rx.time-lite": "registry:dt/rx.time-lite#0.0.0+20160316171810"
+  }
+}
